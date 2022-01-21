@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(23, 124, 131);
+
+    text-align: center;
+}
+.background_image{
+    width: 75%;
+    margin: 2rem auto;
+    font-family:'Play' ;
+}
+
+h1{
+    font-family:'Lobster', cursive;;
+    margin: 2rem;
+    color: burlywood;
+}
+p{
+    background-color: burlywood;
+    color:rgb(23, 124, 131) ;
+    width: 100px;
+    text-align: center;
+    margin: 2rem auto;
+    font-size: large;
+    font-family:'Play' ;
+    border-radius: 25%;
+    border-style: solid;
+    padding: 1rem 1rem;
+    text-decoration: none
+}
+a {
+    text-decoration: none;
+}
+
+p:hover{
+    background-color:rgb(30, 45, 87) ;
+    color: burlywood;
+    transition:0.3s;
+    cursor: pointer;
+}
+
+footer {
+    font-family: play;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: burlywood;
+}
